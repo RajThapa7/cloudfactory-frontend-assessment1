@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Search } from "lucide-react";
@@ -35,21 +35,23 @@ function HeroSearchBar({
 }) {
   const [innerValue, setInnerValue] = useState(initialValue);
 
-  useEffect(() => {
-    onSearch(innerValue);
-  }, [innerValue, onSearch]);
+  // useEffect(() => {
+  //   onSearch(innerValue);
+  // }, [innerValue, onSearch]);
 
-  useEffect(() => {
-    setInnerValue(initialValue);
-  }, [initialValue]);
+  // useEffect(() => {
+  //   setInnerValue(initialValue);
+  // }, [initialValue]);
 
   return (
     <form
       onSubmit={(e) => {
         e.preventDefault();
         onSearch(innerValue);
+        // Reset the input field after search
+        setInnerValue("");
       }}
-      className="flex items-center bg-black px-4 pr-2 py-2 rounded-lg w-full max-w-xl mt-6 shadow-lg focus-within:ring-2 focus-within:ring-accent focus-within:ring-offset-2 focus-within:ring-offset-black"
+      className="flex items-center bg-[#1c2126] px-4 pr-2 py-2 rounded-lg w-full max-w-xl mt-6 shadow-lg focus-within:ring-2 focus-within:ring-accent focus-within:ring-offset-2 focus-within:ring-offset-black"
     >
       <Search className="text-gray-400 w-5 h-5" />
       <Input

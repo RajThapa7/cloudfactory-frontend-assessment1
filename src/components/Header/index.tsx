@@ -23,7 +23,7 @@ export function Header() {
             value={searchValue}
             onChange={(e) => setSearchValue(e.target.value)}
             placeholder="Search"
-            className="pl-10 bg-gray-800 text-white border-none focus:ring-0 rounded-lg"
+            className="pl-10 bg-gray-800 text-white border-none focus:!ring-1 focus:!ring-accent rounded-lg"
           />
         </div>
 

@@ -47,6 +47,11 @@
 - Issue: UI not matching with the figma design and only the inner `Input` component was being focused
 - Fix: modified the classes to match the figma design and added focus styling to the outer container
 
+3. Removed unnecessary useEffect hooks
+
+- Issue: unnecessary useEffect hooks used to set the initial value and call onSearch callback on innerValue change
+- Fix: removed the unnecessary useEffect hooks and passed the initial value on state initialization and called on the onSearch callback on onSubmit event handler
+
 ### BoxArea97
 
 1. Component renamed from `BoxArea97` to `HeroSection`
