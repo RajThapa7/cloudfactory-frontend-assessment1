@@ -5,7 +5,12 @@ import { Button } from "@/components/ui/button";
 import { Search } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 
-function TagList({ title, tags }) {
+interface TagListProps {
+  title: string;
+  tags: string[];
+}
+
+function TagList({ title, tags }: TagListProps) {
   return (
     <div className="mt-8 px-6 max-w-5xl mx-auto">
       <div className="text-white text-lg font-semibold mb-4">{title}</div>
