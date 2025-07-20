@@ -62,5 +62,15 @@
 ### TagList
 
 1. Added TypeScript props interface
+
    - Issue: Props were untyped in original component and throwing type error
    - Fix: Defined `TagListProps` interface for `title` and `tags`
+
+2. Used semantic tags
+
+   - Issue: <div> tag was used to render the text
+   - Fix: Used <p> tag instead of <div> to render the text
+
+3. Added onChange and value props to the tag selector
+   - Issue: State handling missing in the TagList component
+   - Fix: handled state by adding onChange and value props to the TagList component
