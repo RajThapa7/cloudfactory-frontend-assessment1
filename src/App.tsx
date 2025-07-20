@@ -23,7 +23,7 @@ function TagList({ title, tags }) {
   );
 }
 
-function BoxArea97() {
+function HeroSection() {
   const onSearch = (search: string) => {
     console.log(search);
     // implementing the search logic is not required for this task
@@ -36,13 +36,13 @@ function BoxArea97() {
         <h1 className="text-3xl md:text-5xl font-bold text-white">
           Search for words, phrases and meanings
         </h1>
-        <BoxArea108 initialValue="" onSearch={onSearch} />
+        <HeroSearchBar initialValue="" onSearch={onSearch} />
       </div>
     </div>
   );
 }
 
-function BoxArea108({
+function HeroSearchBar({
   initialValue,
   onSearch,
 }: {
@@ -121,7 +121,7 @@ export default function App() {
   return (
     <main className="bg-black min-h-screen text-white">
       <Header />
-      <BoxArea97 />
+      <HeroSection />
       <TagList title="Trending" tags={tags} />
       <TagList title="For you" tags={tags} />
     </main>

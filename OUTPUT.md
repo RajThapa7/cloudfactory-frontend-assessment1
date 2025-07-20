@@ -1,5 +1,3 @@
-[Example output - you should start from scratch]
-
 ## Changes Made
 
 ###[Component Name]
@@ -11,14 +9,14 @@
    - Issue: search icon is not accessible
    - Fix: Added search icon to the input field
 
-### [Another Component Name]
+### BoxArea97
 
-1. ...
-   - Issue: ...
-   - Fix: ...
-2. ...
-   - Issue: ...
-   - Fix: ...
-3. ...
-   - Issue: ...
-   - Fix: ...
+1. Component renamed from `BoxArea97` to `HeroSection`
+   - Issue: Name was not descriptive
+   - Fix: Renamed to follow semantic naming convention for hero sections
+
+### BoxArea108
+
+1. Component renamed from `BoxArea108` to `HeroSearchBar`
+   - Issue: Name was not descriptive
+   - Fix: Renamed to follow semantic naming convention
