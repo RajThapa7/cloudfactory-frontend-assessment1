@@ -37,6 +37,11 @@
 - Issue: HeroSearchBar was not keyboard accessible
 - Fix: Added aria-label to search inputs, type="submit" to the Button and wrapped the search input in a <form>
 
+2. Made Ui fixes to the HeroSearchBar component
+
+- Issue: UI not matching with the figma design and only the inner `Input` component was being focused
+- Fix: modified the classes to match the figma design and added focus styling to the outer container
+
 ### BoxArea97
 
 1. Component renamed from `BoxArea97` to `HeroSection`

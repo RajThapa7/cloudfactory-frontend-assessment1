@@ -49,16 +49,16 @@ function HeroSearchBar({
         e.preventDefault();
         onSearch(innerValue);
       }}
-      className="flex items-center bg-black px-4 py-2 rounded-full w-full max-w-xl mt-6 shadow-lg"
+      className="flex items-center bg-black px-4 pr-2 py-2 rounded-lg w-full max-w-xl mt-6 shadow-lg focus-within:ring-2 focus-within:ring-accent focus-within:ring-offset-2 focus-within:ring-offset-black"
     >
-      <Search className="text-gray-400 mr-3" />
+      <Search className="text-gray-400 w-5 h-5" />
       <Input
         aria-label="Search input"
         value={innerValue}
         onChange={(e) => setInnerValue(e.target.value)}
         type="text"
         placeholder="Type to search..."
-        className="flex-1 bg-transparent border-none text-white placeholder:text-gray-400 focus:ring-0"
+        className="flex-1 bg-transparent border-none text-white placeholder:text-gray-400 focus:!ring-0"
       />
       <Button
         type="submit"
