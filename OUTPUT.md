@@ -9,6 +9,12 @@
    - Issue: search icon is not accessible
    - Fix: Added search icon to the input field
 
+### App
+
+1. All inline components were extracted into separate files
+   - Issue: App.tsx was cluttered with multiple components
+   - Fix: Moved each component (`Header`, `HeroSection`, `TagList`) into its own file in `components/` folder
+
 ### BoxArea97
 
 1. Component renamed from `BoxArea97` to `HeroSection`
