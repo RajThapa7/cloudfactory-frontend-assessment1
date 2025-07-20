@@ -16,7 +16,7 @@ export function HeroSection() {
         src="/task1/hero-bg.png"
         className="w-full h-96 object-cover"
       />
-      <div className="absolute inset-0 bg-black/50 flex flex-col items-center justify-center text-center px-4">
+      <div className="absolute inset-0 bg-black/30 flex flex-col items-center justify-center text-center px-4">
         <h1 className="text-3xl md:text-5xl font-bold text-white">
           Search for words, phrases and meanings
         </h1>

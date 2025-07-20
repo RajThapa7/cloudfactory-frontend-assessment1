@@ -6,7 +6,7 @@ import { useState } from "react";
 export function Header() {
   const [searchValue, setSearchValue] = useState("");
   return (
-    <header className="flex items-center justify-between px-6 py-4 bg-black border-b border-gray-800">
+    <header className="flex items-center justify-between px-6 py-4 border-b border-gray-400">
       <div className="flex items-center gap-2">
         <img src="/task1/logo.png" alt="Logo" className="w-4 h-4" />
         <div className="text-white font-semibold text-lg">Wortionary</div>

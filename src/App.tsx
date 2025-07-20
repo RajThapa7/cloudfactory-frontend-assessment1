@@ -14,7 +14,7 @@ export default function App() {
   ]);
 
   return (
-    <main className="bg-black min-h-screen text-white">
+    <main className="bg-[#1c2126] min-h-screen text-white">
       <Header />
       <HeroSection />
       <TagList title="Trending" tags={tags} />

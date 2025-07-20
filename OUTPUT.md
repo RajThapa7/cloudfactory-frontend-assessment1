@@ -3,8 +3,13 @@
 ### App
 
 1. All inline components were extracted into separate files
+
    - Issue: App.tsx was cluttered with multiple components
    - Fix: Moved each component (`Header`, `HeroSection`, `TagList`) into its own file in `components/` folder
+
+2. Changed the background color
+   - Issue: Background color not matching with the figma design
+   - Fix: Changed the background color to match with the figma design
 
 ### Header
 
