@@ -35,14 +35,6 @@ function HeroSearchBar({
 }) {
   const [innerValue, setInnerValue] = useState(initialValue);
 
-  // useEffect(() => {
-  //   onSearch(innerValue);
-  // }, [innerValue, onSearch]);
-
-  // useEffect(() => {
-  //   setInnerValue(initialValue);
-  // }, [initialValue]);
-
   return (
     <form
       onSubmit={(e) => {

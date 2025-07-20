@@ -28,6 +28,11 @@
 - Issue: No state handling for the search input
 - Fix: Added `searchValue` state to handle the search input
 
+4. Header component made responsive
+
+- Issue: Responsive issue in mobile devices
+- Fix: SearchBar hidden in mobile devices and added responsive mobile search bar with slide-in behavior
+
 ### HeroSection
 
 1. Accessibility improvement in the background image
