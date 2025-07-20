@@ -1,14 +1,5 @@
 ## Changes Made
 
-###[Component Name]
-
-1. useEffect in line 37
-   - Issue: useEffect missing dependencies causing stale state
-   - Fix: Added required dependencies to useEffect array
-2. Accessibility issue with the search icon line 98
-   - Issue: search icon is not accessible
-   - Fix: Added search icon to the input field
-
 ### App
 
 1. All inline components were extracted into separate files
@@ -32,3 +23,17 @@
 1. Added TypeScript props interface
    - Issue: Props were untyped in original component and throwing type error
    - Fix: Defined `TagListProps` interface for `title` and `tags`
+
+### HeroSection
+
+1. Accessibility improvement in the background image
+
+- Issue: Background image was missing the alt attribute
+- Fix: Added alt attribute to the background image
+
+### HeroSearchBar
+
+1. Accessibility improvement in the HeroSearchBar
+
+- Issue: HeroSearchBar was not keyboard accessible
+- Fix: Added aria-label to search inputs, type="submit" to the Button and wrapped the search input in a <form>
