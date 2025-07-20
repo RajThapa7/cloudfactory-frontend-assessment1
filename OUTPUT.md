@@ -15,8 +15,8 @@
 
 1. Code Cleanup
 
-- Issue: Too many redundant <span> wrapper in the header `Search` and use of inline styling
-- Fix: Removed unnecessary <span> wrapper and used tailwind utility classes instead of inline styling
+- Issue: Too many redundant `<span>` wrapper in the header `Search` and use of inline styling
+- Fix: Removed unnecessary `<span>` wrapper and used tailwind utility classes instead of inline styling
 
 2. Made Ui fixes in the header component
 
@@ -45,7 +45,7 @@
 1. Accessibility improvement in the HeroSearchBar
 
 - Issue: HeroSearchBar was not keyboard accessible
-- Fix: Added aria-label to search inputs, type="submit" to the Button and wrapped the search input in a <form>
+- Fix: Added aria-label to search inputs, type="submit" to the Button and wrapped the search input in a `<form>`
 
 2. Made Ui fixes to the HeroSearchBar component
 
@@ -78,8 +78,8 @@
 
 2. Used semantic tags
 
-   - Issue: <div> tag was used to render the text
-   - Fix: Used <p> tag instead of <div> to render the text
+   - Issue: `<div>` tag was used to render the text
+   - Fix: Used `<p>` tag instead of `<div>` to render the text
 
 3. Added onChange and value props to the tag selector
    - Issue: State handling missing in the TagList component
